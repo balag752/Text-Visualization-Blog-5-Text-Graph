@@ -55,7 +55,7 @@ Text size is based on the degree centrality. This graph is not very informative.
 
 Initially, we are filtering out the non-connected nodes and below is the filtered graph. Now we are able to find the overall idea about how each node is connected.
 
-![Image_2](Image_2.png)
+![Image_2](Blog/Image_2.png)
 
 <center>  [Text Graph with all connected nodes] </center>
 
@@ -63,19 +63,19 @@ Initially, we are filtering out the non-connected nodes and below is the filtere
 
 K core helps to find the coreness in the graph. For K=1, it removes all unconnected nodes and the result is similar to the above image (Non-connected nodes).
 
-![Image_3_K_core_2](Image_3_K_core_2.png)
+![Image_3_K_core_2](Blog/Image_3_K_core_2.png)
 [Text Graph with all k coreness]
 
 ### Closeness vs Between centrality
 
 We have forced part of the cluster from a better comparison of centralities. We have shown the dark red color text as **closeness** of the nodes.
 
-![Image_5_Closeness](Image_5_Closeness.png)
+![Image_5_Closeness](Blog/Image_5_Closeness.png)
 [Closeness centerality]
 
 Furthermore, below is the **Between centrality** text graph.  We are able to similar results but metrics are varied.
 
-![Image_5_Between](Image_5_Between.png)
+![Image_5_Between](Blog/Image_5_Between.png)
 [Between centerality]
 
 ## Zooming each cluster in Text Graph
@@ -84,21 +84,21 @@ Furthermore, below is the **Between centrality** text graph.  We are able to sim
 
 Here, we have used the **Between centrality** for text size.  We can connect with the day, time and night words. As well all 3 words are interconnected. *flying* is again connecting with time and day words.
 
-![Image_4_Between_cluster_1](Image_4_Between_cluster_1.PNG)
+![Image_4_Between_cluster_1](Blog/Image_4_Between_cluster_1.PNG)
 [Text Graph - Time Cluster]
 
 ### Location cluster
 
 Here **Location** and hotel is a major word and each word have different similarity and **property** is in both and acting as the strong one in between centrality.
 
-![Image_4_Between_cluster_2](Image_4_Between_cluster_2.PNG)
+![Image_4_Between_cluster_2](Blog/Image_4_Between_cluster_2.PNG)
 [Text Graph - Location Cluster]
 
 ## Hotel feedback cluster
 
 Most of the major words are related to **food** as well as most words are having a positive word. Here also, between centrality shows better results in showing a major connection.
 
-![Image_4_Between_cluster_3](Image_4_Between_cluster_3.png)
+![Image_4_Between_cluster_3](Blog/Image_4_Between_cluster_3.png)
 [Text Graph - Food Cluster]
 
 ### Conclusion
