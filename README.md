@@ -46,7 +46,7 @@ We have used the **gephi tool** for text graph visualization. Node and Edge data
 
 We plotted text graph based on node and edge dataset and categorized node text based on the topic names.
 
-![Image_1](Image_1.JPG)
+![Image_1](Blog/Image_1.JPG)
 [Text Graph]
 
 Text size is based on the degree centrality. This graph is not very informative. There are a lot of unconnected nodes. As well as we are able to distinguish as 4 clusters in text graph.
